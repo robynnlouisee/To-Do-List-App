@@ -22,6 +22,7 @@ body {
     height: 100%;
     flex: 1;
     border: 2px solid #FCFBF4;
+    text-align: center;
 }
 
 h1 {
@@ -33,4 +34,10 @@ button {
     border-radius: 5px;
     border: 1px solid black;
     
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
 }
