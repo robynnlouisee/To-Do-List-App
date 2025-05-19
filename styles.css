@@ -5,7 +5,7 @@ html, css {
 }
 
 body {
-    background-color: #F0E5D3;
+    background-color: #FFB2D0;
 }
 
 .planner {
@@ -16,24 +16,31 @@ body {
 }
 
 .day {
-    background-color: #F0E5D3;
+    background-color: #FCFBF4;
     padding: 1rem;
     border-radius: 8px;
-    height: 100%;
     flex: 1;
-    border: 2px solid #FCFBF4;
+    border: 2px solid #00416A;
     text-align: center;
+    color: #00416A;
+    font-family: monospace;
+
 }
 
 h1 {
     text-align: center;
+    font-size: 70px;
+    font-weight: 900;
+    color: #6CF0EC;
+    text-shadow:  8px 5px 0 #00416A;
+    font-family: 'Ranchers', cursive;
 }
 
 button {
-    background-color: #F0E5D3;
+    background-color: #00416A;
     border-radius: 5px;
-    border: 1px solid black;
-    
+    color: #FCFBF4;
+    border: 2px solid #00416A;
 }
 
 .inputs {
