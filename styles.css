@@ -41,3 +41,10 @@ button {
     flex-direction: column;
     gap: 0.5rem;
 }
+
+.task-list {
+    list-style: none;
+    text-align: left;
+    padding-left: 0;
+    
+}

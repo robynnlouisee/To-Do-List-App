@@ -12,8 +12,22 @@ addBtn.addEventListener("click", () => {
 
     if (time && task) {
     const li = document.createElement('li');
-    li.textContent = `${time} - ${task}`;
-    taskList.appendChild(li);
+
+    const taskText = document.createElement('span');
+    taskText.textContent = `${time} - ${task}`;
+    taskText.classList.add('task-text');
+
+    const deleteBtn = document.createElement('button');
+deleteBtn.textContent = '✖';
+deleteBtn.classList.add('delete-btn');
+
+deleteBtn.addEventListener('click', () => {
+    li.remove();
+});
+
+li.appendChild(taskText);
+li.appendChild(deleteBtn);
+taskList.appendChild(li);
 
     timeInput.value = '';
     taskInput.value = '';
