@@ -92,3 +92,10 @@ h2 {
     font-size: 19px;
     font-weight: 900;
 }
+
+.delete-btn {
+    color: #fcfbf4;
+    background-color: #B22222;
+    border-radius: 5px;
+    border: 2px solid #B22222;
+}
