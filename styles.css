@@ -10,21 +10,20 @@ body {
 
 .planner {
     display: flex;
+    align-items: flex-start;
     gap: 1rem;
-    align-items: stretch;
-    height: 100vh;
+
 }
 
 .day {
     background-color: #FCFBF4;
     padding: 1rem;
     border-radius: 8px;
-    flex: 1;
+    flex: 0 1 250px;
     border: 2px solid #00416A;
     text-align: center;
     color: #00416A;
     font-family: monospace;
-
 }
 
 h1 {
@@ -53,7 +52,7 @@ button {
     list-style: none;
     text-align: left;
     padding-left: 0;
-    
+
 }
 
 .task-list li {
@@ -64,4 +63,15 @@ button {
     padding: 0.3rem 0.5rem;
     background-color: #FCFBF4;
     border-radius: 4px;
+}
+
+h3 {
+    font-size: 18px;
+}
+
+h2 {
+    font-family: monospace;
+    color: #fcfbf4;
+    background-color: #00416A;
+    text-align: center;
 }
