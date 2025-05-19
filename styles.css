@@ -48,3 +48,13 @@ button {
     padding-left: 0;
     
 }
+
+.task-list li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0.5rem;
+    padding: 0.3rem 0.5rem;
+    background-color: #FCFBF4;
+    border-radius: 4px;
+}
